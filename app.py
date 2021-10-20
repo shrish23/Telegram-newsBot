@@ -58,7 +58,7 @@ def error(update: Update, context: CallbackContext):
 bot = Bot(TOKEN)
 # updater = Updater(TOKEN,use_context=True)
 try:
-    bot.set_webhook("https://b3e5-122-160-51-56.ngrok.io/"+TOKEN)
+    bot.set_webhook("https://hidden-savannah-75071.herokuapp.com/"+TOKEN)
 except Exception as e:
     print(e)
 dp = Dispatcher(bot, None)
