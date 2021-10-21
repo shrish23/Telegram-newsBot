@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\Data Science Course CB\Project-Creating a Telegram Bot\news_bot\Client.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "Client.json"
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
